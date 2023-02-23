@@ -1,0 +1,47 @@
+$yellow:#FFF000;
+$white:#ffffff;
+$grey:#808080;
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:$yellow;
+
+
+    .container{
+        background-color: $white;
+        width: 300px;
+        height: 150px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+
+
+        .emojis{
+            width: 50px;
+            
+            overflow: hidden;
+            display: flex;
+
+            .fa-regular{
+                font-size: 50px;
+                
+            }
+        }
+
+        .stars{
+            .fa-solid{
+                font-size: 25px;
+                color: $grey;
+            }
+            .active{
+                color: red;
+            }
+        }
+    }
+}

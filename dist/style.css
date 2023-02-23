@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #FFF000;
+}
+body .container {
+  background-color: #ffffff;
+  width: 300px;
+  height: 150px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+body .container .emojis {
+  width: 50px;
+  overflow: hidden;
+  display: flex;
+}
+body .container .emojis .fa-regular {
+  font-size: 50px;
+}
+body .container .stars .fa-solid {
+  font-size: 25px;
+  color: #808080;
+}
+body .container .stars .active {
+  color: red;
+}
